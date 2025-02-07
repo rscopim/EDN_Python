@@ -3,14 +3,14 @@ import copy  # Importa a biblioteca 'copy', que contém a função 'deepcopy' pa
 
 # Definição do dicionário 'meuVeiculo', que serve como modelo para criar os veículos
 meuVeiculo = {
-    "vin" : "<empty>",       # VIN do veículo (identificador único)
-    "make" : "<empty>",      # Marca do veículo
-    "model" : "<empty>",     # Modelo do veículo
-    "year" : 0,              # Ano de fabricação do veículo
-    "range" : 0,             # Autonomia do veículo em quilômetros
-    "topSpeed" : 0,          # Velocidade máxima do veículo em km/h
-    "zeroSixty" : 0.0,       # Tempo de aceleração de 0 a 100 km/h
-    "mileage" : 0            # Quilometragem do veículo
+    "Identificação" : "<empty>",       # VIN do veículo (identificador único)
+    "marca" : "<empty>",      # Marca do veículo
+    "modelo" : "<empty>",     # Modelo do veículo
+    "ano de fabricação" : 0,              # Ano de fabricação do veículo
+    "autonomia em KM" : 0,             # Autonomia do veículo em quilômetros
+    "Velocidade maxima" : 0,          # Velocidade máxima do veículo em km/h
+    "Tempo de aceleração" : 0.0,       # Tempo de aceleração de 0 a 100 km/h
+    "Quilometragem do veículo" : 0            # Quilometragem do veículo
 }
 
 # Loop para imprimir as chaves e valores do dicionário 'meuVeiculo'
