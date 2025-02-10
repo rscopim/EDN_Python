@@ -21,7 +21,7 @@ for key, value in meuVeiculo.items():
 listaInventario = []
 
 # Abertura do arquivo CSV 'car_fleet.csv' para leitura dos dados
-with open('car_fleet.csv') as csvFile:
+with open('6_car_fleet.csv') as csvFile:
     csvReader = csv.reader(csvFile, delimiter=',')  # 'csv.reader' cria um objeto para ler o arquivo CSV
     lineCount = 0  # Contador de linhas lidas
     # Loop para processar cada linha do arquivo CSV
